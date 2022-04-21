@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .inner-box {
+    width: 33%;
+    height: 65vh;
+  }
+
+  .song-name {
+    font-size: 1.1rem;
+  }
+
+  .song-artist {
+    font-size: 1.1rem;
+  }
+
+  .song-img {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .inner-box {
+    width: 85%;
+    height: 70vh;
+  }
+
+  .song-name {
+    font-size: 1.1rem;
+  }
+
+  .song-artist {
+    font-size: 1.1rem;
+  }
+
+  .song-img {
+    width: 60%;
+  }
+}

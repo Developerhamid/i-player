@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Developerhamid">
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="Img/favicon.ico" type="image/x-icon">
+    <!-- Cdn link for fontawesom icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External css for i-player -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive Css for mobile compatibility -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>i-player|personal music player</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="main-heading">i-player</h1>
+    </header>
+
+    <!-- Music player box -->
+    <main>
+        <section>
+            <div class="outer-box">
+                <div class="inner-box">
+                    <div class="song-info">
+                        <h2 class="song-name">Rain and Tears</h2>
+                        <h3 class="song-artist">JuliusH</h3>
+                    </div>
+                    <div class="song-img">
+                        <img src="covers/1.jpg" alt="song-img" id="songImg">
+                    </div>
+                    <div>
+                        <audio src="songs/1.mp3" id="music"></audio>
+                    </div>
+                    <div class="song-controllers">
+                        <i class="fa-solid fa-backward" id="pre" title="Previous"></i>
+                        <i class="fa-solid fa-play" id="play" title="Play/Pause"></i>
+                        <i class="fa-solid fa-forward" id="next" title="Next"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- External Javascript -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
