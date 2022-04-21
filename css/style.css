@@ -46,7 +46,7 @@ body {
   box-shadow: 0 0px 4px 1px var(--shadow-clr);
   border-radius: 12px;
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  background: url("./Img/bg.jpg") no-repeat center/cover;
+  background: url("../Img/bg.jpg") no-repeat center/cover;
   color: var(--txt-clr-second);
 }
 
